@@ -1,0 +1,114 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>pizza</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/responsive-nav.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/simpleslider.css"/>
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+    
+
+     
+  </head>
+  
+  <body>
+    <header>
+    <a href="#home" class="logo" data-scroll>Pizza palace</a>
+    <nav class="nav-collapse">
+      <ul>
+        <li><a href="#home" data-scroll>Home</a></li>
+        <li><a href="#menu" data-scroll>Menu</a></li>
+        <li><a href="#contact" data-scroll>Contact</a></li>
+        <li><a href="#about" data-scroll>About</a></li>
+      </ul>
+    </nav>
+  </header>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+   
+
+    <section id="home">
+      <div id="simpleslider">
+        <div id="ss__wrapper"></div>
+        <div id="ss__controls">
+          <div id="ss__prev"><div id="ss__prevChev"></div></div>
+          <div id="ss__next"><div id="ss__nextChev"></div></div>
+          <div id="ss__dots"></div>
+        </div>
+      </div>
+
+        <div class="corpus1">
+          <h1>Deel 1</h1>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius lacus a ex tempus, et elementum nisi pellentesque. Suspendisse sed justo ullamcorper, pretium ligula et, aliquam orci. Mauris lorem metus, laoreet sed fermentum vel, tincidunt nec massa. Mauris a justo eu tortor pharetra condimentum non quis justo. Cras lobortis tellus orci, at fermentum turpis aliquam a. Ut non nunc accumsan, interdum nisi in, convallis nulla. Sed sed lorem ut felis placerat congue. Sed a imperdiet nisl. Donec turpis est, elementum ac interdum eget, fermentum ac lorem. Morbi metus erat, aliquam ac sem in, tempor auctor turpis. Vestibulum semper nibh vitae metus pharetra faucibus. Vivamus lorem quam, scelerisque ac luctus eget, fringilla at arcu. Integer molestie erat vitae nibh imperdiet, a ultricies lectus pulvinar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros enim, pulvinar eget mattis sed, fermentum at dolor. </p>
+        </div>
+
+        <div class="corpus2">
+          <h1>Deel 2</h1>
+          <p>Nullam vehicula justo vel auctor interdum. Etiam gravida dictum neque, non finibus lorem vulputate vel. Vivamus justo nisi, gravida id egestas quis, tempor vel mi. Vivamus dui risus, lobortis eget sem at, cursus accumsan elit. Nam sed libero id neque fermentum blandit. Quisque ac tellus at diam feugiat iaculis ac nec tortor. Maecenas blandit, enim a vulputate bibendum, eros tortor scelerisque augue, sed aliquam dolor tellus non mi. Phasellus accumsan, tellus at elementum scelerisque, orci ipsum venenatis tellus, a congue tellus erat sed urna. </p>
+          </div>
+
+        
+        <div style="clear: both;"></div>  
+      
+    </section>
+
+    <section id="menu">
+      <div class="hero-unit">
+        <h1>Pizza paleis</h1>
+        <p>Dit is het menu!</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="hero-unit">
+        <h1>Pizza paleis</h1>
+        <p>Contactinfo!</p>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="hero-unit">
+        <h1>Pizza paleis</h1>
+        <p>Dit is de about page!</p>
+      </div>
+    </section>
+
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/zepto/zepto.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+        <!-- build:js({app,.tmp}) scripts/main.js -->
+        <script src="scripts/main.js"></script>
+        <script src="scripts/responsive-nav.js"></script>
+        <script src="scripts/simpleslider.js"></script>
+        <!-- endbuild -->
+         <footer>
+  <p>Footer</p>
+  <p>Beetje informatie in de footer</p>
+</footer> 
+<script>var nav = responsiveNav(".nav-collapse");</script>
+<script>
+    simpleslider('16:6', 3, "images/slideshow", "image");
+</script>
+</body>
+
+</html>

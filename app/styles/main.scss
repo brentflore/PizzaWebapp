@@ -1,0 +1,79 @@
+// bower:scss
+// endbower
+@viewport {width: device-width;}
+normalise.css{
+  
+}
+
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.hero-unit {
+  margin: 50px auto 0 auto;
+  width: 300px;
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 30px;
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 60px;
+  h1 {
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+}
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+header{
+  background-color: #ccc;
+  padding: 10px;
+  position:fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+footer{
+  max-height:50px;
+  background-color: #eee;
+  width:100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  h1{ padding: 10px; } 
+} 
+@media (min-width: 769px){ 
+  h1{ 
+    padding: 20px; 
+  } 
+
+  .contentWrapper{
+    overflow: auto;
+  }
+
+  .corpus1{
+    padding: 20px;
+    float: left;
+    width:45%;
+  }
+
+  .corpus2{
+    padding: 20px;
+    float: right;
+    width:45%;
+  }
+
+
+}

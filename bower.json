@@ -1,0 +1,8 @@
+{
+  "name": "pizza",
+  "private": true,
+  "dependencies": {
+    "zepto": "~1.1.4",
+    "modernizr": "~2.8.2"
+  }
+}
